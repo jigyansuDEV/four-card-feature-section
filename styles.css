@@ -1,0 +1,148 @@
+
+/* body styling */
+body {
+  color: hsl(234, 12%, 34%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about {
+  font-size: 1em;
+  margin: auto;
+  margin-bottom: 60px;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* heading, sub-heading & about section styling */
+h1 {
+  font-size: 2.5em;
+  font-weight: 200;
+  margin: 60px 0 0 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+/* card section styling */
+
+/* parent card section */
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* child card section */
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 230px;
+  padding: 10px 30px 0 30px;
+  width: 300px;
+}
+
+.middle-cards {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.supervisor {
+  align-self: center;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 30px;
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  align-self: center;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+h3 {
+  font-weight: 600;
+  text-align: left;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  margin-right: 30px;
+  text-align: left;
+}
+
+img {
+  float: right;
+}
+
+/* hover styling */
+.card:hover {
+  cursor: pointer;
+}
+
+.supervisor:hover {
+  background-color: hsl(180, 62%, 55%, 0.10);
+}
+
+.team-builder:hover {
+  background-color: hsl(0, 78%, 62%, 0.10);
+}
+
+.karma:hover {
+  background-color: hsl(34, 97%, 64%, 0.10);
+}
+
+.calculator:hover {
+  background-color: hsl(212, 86%, 64%, 0.10);
+}
+
+@media screen and (max-width:1024px) {
+  h1, h2 {
+    font-size: 1.8em;
+  }
+  .card-section {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .card {
+    margin: 10px;
+    width: 65%;
+  }
+
+  .middle-cards {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+
+  .supervisor, .calculator {
+    float: left;
+  }
+}
+
+/* footer styling */
+.attribution {
+  font-size: 11px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
